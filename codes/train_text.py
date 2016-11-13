@@ -2,6 +2,7 @@ import os
 import sys
 import time
 
+
 import numpy
 import numpy as np
 import cPickle

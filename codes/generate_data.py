@@ -4,7 +4,6 @@ import gzip,cPickle
 
 from numpy import genfromtxt
 
-
 alphabet = "abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{}"
 
 test_y = []
