@@ -16,7 +16,7 @@ import theano.tensor as T
 
 def load_ag_news():
     total_len = 231
-    csvFile_test = "./ag_news_csv/test.csv"
+    csvFile_test = "/home/maochengzhi/workspacetestData/ag_news_csv/test.csv"
     alphabet = "abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{}"
 
     test_y = []
@@ -56,7 +56,7 @@ def load_ag_news():
     test_y = np.asarray(test_y)
     test_set=(test_x,test_y)
 
-    csvFile_train = "./ag_news_csv/train.csv"
+    csvFile_train = "./../data/ag_news_csv/train.csv"
     train_y = []
     raw_train_x = []
     train_x = []
